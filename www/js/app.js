@@ -6,21 +6,25 @@ window.addEventListener('load', function() {
 	
 	*/
     $JSView.declareView({ 
-        viewA: {
-            url: '/viewA',
-            template: 'views/viewA.html',
-            controller: 'viewA'
+        inici: {
+            url: '/inici',
+            template: 'views/inici.html',
+            controller: 'inici'
         },
-        viewB: {
-            url: '/viewB',
-            template: 'views/viewB.html',
-            controller: 'viewB'
+        Sol: {
+            url: '/Sol',
+            template: 'views/Sol.html',
+            controller: 'sol'
         },
-        viewC: {
-            url: '/viewC',
-            template: 'views/viewC.html',
-            controller: 'viewC'
+        Mercuri: {
+            url: '/mercuri',
+            template: 'views/mercuri.html',
+            controller: 'mercuri'
         }
+        Venus: {
+            url: '/venus',
+            template: 'views/venus.html',
+            controller: 'venus'
     });
      
     /*Declare modal*/
@@ -34,6 +38,6 @@ window.addEventListener('load', function() {
      
     /*Asign view start*/
     $JSView
-        .initView('viewA');
+        .initView('inici');
  
 }, false);
