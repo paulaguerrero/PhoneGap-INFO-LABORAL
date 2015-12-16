@@ -1,6 +1,6 @@
 <jsv-header>
-    <button-header-left onclick="$JSView.back()">< Back</button-header-left>
-    Títol de la pàgina C / 3
+	<button-header-left></button-header-left>
+    Mercuri 
     <button-header-right></button-header-right>
 </jsv-header>
 
@@ -9,11 +9,28 @@
 
 	<div class="container">
 	
-		<h1 class="paddingFull10">Pàgina C</h1>
+		<!-- <h1 class="paddingFull10">Content View A</h1> -->
+		<h3 style="color:blue">El Sistema Solar</h3>
+		<h5>4t ESO 2015 2016</h5>
+
+		<p>Aquest projecte és delSergi.Explicarem el Sistema Solar...</p>
+
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('sol')">El Sol</button>
 		
-		<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewA')">Mostrar Pàgina A</button>
-		<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewB')">Mostrar Pàgina B</button>
-	
-	</div>	
-	
+		<!--
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewC')">Pàgina C/3</button>
+		-->	
+		
+		<!--	
+			<button class="bgYellow btn-centrat" onClick="$JSView.openModal('modalA')">Modal A</button>
+		-->	
+		
+		<!--	
+			<div style="display: block;margin-left: auto;margin-right: auto;" class="btn-centrat">
+				<a class="waves-effect waves-light btn-large"><i class="material-icons left">alarm</i>Materializecss</a>
+			<div>
+		-->	
+			
+	</div>
+			
 </jsv-content>
