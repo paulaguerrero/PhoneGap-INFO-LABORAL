@@ -12,6 +12,8 @@ $JSView.controller = {
     mercuri: function(e){
 		$JSView.dataView({},e)
 	},
+    Venus: function(e){
+		$JSView.dataView({},e)
     modalA: function(e){
 		$JSView.dataView({},e)	
 	}
