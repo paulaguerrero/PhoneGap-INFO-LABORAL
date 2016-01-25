@@ -11,20 +11,55 @@ window.addEventListener('load', function() {
             template: 'views/inici.html',
             controller: 'inici'
         },
-        Sol: {
-            url: '/Sol',
-            template: 'views/Sol.html',
+        sol: {
+            url: '/sol',
+            template: 'views/sol.html',
             controller: 'sol'
         },
-        Mercuri: {
+        mercuri: {
             url: '/mercuri',
             template: 'views/mercuri.html',
             controller: 'mercuri'
-        }
-        Venus: {
+        },
+        venus: {
             url: '/venus',
             template: 'views/venus.html',
             controller: 'venus'
+        },
+        terra: {
+            url: '/terra',
+            template: 'views/terra.html',
+            controller: 'terra'
+        },
+        mart: {
+            url: '/mart',
+            template: 'views/mart.html',
+            controller: 'mart'
+        },
+        jupiter: {
+            url: '/jupiter',
+            template: 'views/jupiter.html',
+            controller: 'jupiter'
+        },
+        ura: {
+            url: '/ura',
+            template: 'views/ura.html',
+            controller: 'ura'
+        },
+        neptu: {
+            url: '/neptu',
+            template: 'views/neptu.html',
+            controller: 'neptu'
+        },
+        saturn: {
+            url: '/saturn',
+            template: 'views/saturn.html',
+            controller: 'saturn'
+        },
+        taula: {
+            url: '/taula',
+            template: 'views/taula.html',
+            controller: 'taula'
     });
      
     /*Declare modal*/
@@ -36,7 +71,7 @@ window.addEventListener('load', function() {
         }
     });
      
-    /*Asign view start*/
+    /*designar la pàgina inicial */
     $JSView
         .initView('inici');
  
